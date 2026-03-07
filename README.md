@@ -24,5 +24,5 @@ export CLAUDE_CODE_MAX_TOKENS=8192
 export ANTHROPIC_BASE_URL="http://localhost:4000"
 export ANTHROPIC_AUTH_TOKEN="sk-1234"
 export ANTHROPIC_MODEL="deepseek-coder"
-alias claude-dp='ANTHROPIC_MODEL=deepseek-coder claude'
+alias claude-ds='ANTHROPIC_MODEL=deepseek-coder claude'
 ```

@@ -14,3 +14,16 @@ wheels/
 
 # logs
 litellm.log
+
+# .claude
+.claude/settings.local.json
+.claude/skills/
+
+# Skill directories
+.agents/
+.baoyu-skills/
+skills/
+skills-lock.json
+
+# test md file
+test-wechat-article.md
