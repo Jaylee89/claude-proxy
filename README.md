@@ -1,4 +1,4 @@
-# Claude
+# Claude Proxy
 
 ## Claude installation
 
@@ -6,23 +6,24 @@
 curl -fsSL https://claude.ai/install.sh | bash -s latest
 ```
 
-## 3rd part API
+## 3rd part API Config Guide
 
 https://www.morphllm.com/use-different-llm-claude-code
 
 
-### init dependencies
+### Init python Dependencies for litellm proxy
 
 ```
 uv sync
 ```
 
-### Claude code
+### Claude Code startup with deepseek-coder
+
+Config in `.claude/settings.json`
+
+
+**Use `claude-ds` to startup claude code with deepseek-coder model**
 
 ```
-export CLAUDE_CODE_MAX_TOKENS=8192
-export ANTHROPIC_BASE_URL="http://localhost:4000"
-export ANTHROPIC_AUTH_TOKEN="sk-1234"
-export ANTHROPIC_MODEL="deepseek-coder"
 alias claude-ds='ANTHROPIC_MODEL=deepseek-coder claude'
 ```
