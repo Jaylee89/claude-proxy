@@ -11,10 +11,15 @@ curl -fsSL https://claude.ai/install.sh | bash -s latest
 https://www.morphllm.com/use-different-llm-claude-code
 
 
-### Init python Dependencies for litellm proxy
+### litellm docs
+
+https://docs.litellm.ai/
+
+### Install litellm
 
 ```
-uv sync
+# Install LiteLLM
+pip3 install litellm
 ```
 
 ### Claude Code startup with deepseek-coder
