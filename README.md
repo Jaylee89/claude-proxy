@@ -32,3 +32,7 @@ Config in `.claude/settings.json`
 ```
 alias claude-ds='ANTHROPIC_MODEL=deepseek-coder claude'
 ```
+
+## OpenClaw Guide (Run in docker)
+
+[openclaw](./docs/openclaw.md)

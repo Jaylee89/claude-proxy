@@ -41,17 +41,18 @@ echo "🚀 启动 litellm 代理服务 (端口: 4000)..."
 
 # 创建日志文件
 LOG_FILE="litellm.log"
+rm -f "$LOG_FILE"
 echo "📝 日志将输出到: $LOG_FILE"
 echo "=== litellm 代理服务启动于 $(date) ===" >> "$LOG_FILE"
 
 # 在后台运行 litellm 代理服务，并将输出重定向到日志文件
-litellm --config litellm_config.yaml --detailed_debug --port 4000 >> "$LOG_FILE" 2>&1 &
+litellm --config litellm_config.yaml --debug --port 4000 >> "$LOG_FILE" 2>&1 &
 
 # 获取进程ID
 LITELLM_PID=$!
 
 # 等待几秒确保服务启动
-sleep 3
+sleep 7
 
 # 检查服务是否正在运行
 if ps -p $LITELLM_PID > /dev/null; then
