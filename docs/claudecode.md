@@ -3,7 +3,7 @@
 
 ## Plugins
 
-```// not work, it does not follow claude code document, need to build a markplace to make it work
+```// not work, it does not follow claude code document, need to build a marketplace to make it work. For details, refer to https://www.linkedin.com/pulse/building-plugin-marketplace-claude-code-developers-guide-pototsky-pulje
 /plugin marketplace add openclaw/clawhub
 ```
 
