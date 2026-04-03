@@ -19,3 +19,4 @@
 
 - [claude agent-skills](https://platform.claude.com/docs/zh-CN/agents-and-tools/agent-skills/best-practices)
 - [trac skills](https://docs.trae.ai/ide/best-practice-for-how-to-write-a-good-skill?_lang=zh)
+- [skills learn](https://x.com/bozhou_ai/status/2039596877650551056)
