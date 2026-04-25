@@ -28,16 +28,7 @@ curl -X POST http://localhost:4000/v1/chat/completions \
 ```
 
 ### Not work for kimi2.5
-```
-curl -X POST http://localhost:4000/v1/chat/completions \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer sk-1234" \
-  -d '{
-    "model": "kimi2",
-    "messages": [{"role": "user", "content": "hello"}],
-    "max_tokens": 8192 
-  }'
-```
+https://platform.moonshot.ai/docs/guide/kimi-k2-5-quickstart#multimodal-tool-capability-example
 
 ```
 curl -X POST http://localhost:4000/v1/chat/completions \

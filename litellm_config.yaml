@@ -19,8 +19,9 @@ model_list:
       model: deepseek/deepseek-coder
       api_key: os.environ/DEEPSEEK_API_KEY
 
-  - model_name: kimi2
+  - model_name: kimi2.5
     litellm_params:
       model: moonshot/kimi-k2.5
       api_key: os.environ/MOONSHOT_API_KEY
-
+litellm_settings:
+  drop_params: true
